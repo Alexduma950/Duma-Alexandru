@@ -1,0 +1,618 @@
+
+body {
+    margin: 0;
+    background-color: rgb(158, 107, 207);
+    font-family: 'Quicksand', sans-serif;
+}
+nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11,13,36,255);
+    padding: 0px;
+    outline: 5px solid rgb(121, 2, 154);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+}
+
+.logo {
+  
+border-radius: 25%;
+width: 300px;
+height: 100px;
+object-fit: cover;
+outline: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 0 50px;
+    padding: 0 15px 0 0px;
+}
+
+nav li a {
+
+    padding: 10px 15px;
+    white-space: nowrap;
+    color: antiquewhite;
+    font-size: x-large;
+    font-family: 'Quicksand', sans-serif;
+    font-style: oblique;
+    
+}
+.fundal {
+    position: relative;
+    padding: 0 0 30px 0;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fundal img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    outline: 5px solid rgb(121, 2, 154);
+}
+
+h1 {
+    margin: 0;
+    position: relative;
+    text-align: center; 
+    font-size: 75px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    color: rgb(129, 46, 206);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h2 {
+    margin: 0;
+    position: relative;
+    text-align: center; 
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    color: rgb(129, 46, 206);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+text-decoration: none;
+text-wrap: 0;
+font-size: 25px;
+color: rgb(236, 215, 255);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+.subtitlu {
+    margin: 0;
+    position: relative;
+    text-align: center; 
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: oblique;
+    color: rgb(165, 117, 210);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-bottom: 350px;
+}
+
+.button {
+background-color: rgb(129, 46, 206);
+border: none;
+margin: 0 0 0 5px;
+color: white;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+border-radius: 8px;
+box-shadow: 0 9px rgb(81, 27, 131);
+transition: background-color 0.3s;
+}
+
+.button:active {
+background-color: #333;
+box-shadow: 0 5px rgb(118, 3, 154);
+transform: translateY(4px);
+
+}
+
+.button:hover {
+background-color: rgb(174, 3, 226);
+}
+
+
+
+
+
+
+
+.P_N {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+    }
+    
+    .coloana_P_N {
+    width: 50%;
+    margin: 10px;
+    margin: 0;
+    background: rgb(155, 76, 197);
+    }   
+    
+    .coloana_P_N1 {
+    width: 50%;
+    margin: 10px;
+    margin: 0;
+    background: rgb(102, 50, 130);
+    }
+    
+    .card_P_N {
+    padding: 10px;
+    }
+    
+    .card_P_N1 {
+    padding: 0 15px 50px 15px;
+    }
+    
+    .card_P_N1 p {
+    text-align: center;
+    text-decoration: none;
+    text-wrap: 0;
+    font-size: 25px;
+    padding-top: 90px;
+    color: violet;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .detalii1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
+        padding: 25px 0px;
+        }
+        
+        .coloana_detalii1 {
+        width: 50%;
+        margin: 10px;
+        margin: 0;
+        background: rgb(155, 76, 197);
+        }   
+        
+        .coloana_detalii1a {
+        width: 50%;
+        margin: 10px;
+        margin: 0;
+        background: rgb(102, 50, 130);
+        }
+        
+        .card_detalii1 {
+        padding: 10px;
+        }
+
+        .card_detalii1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            }
+        
+        .card_detalii1a {
+        padding: 0 15px 50px 15px;
+        }
+        
+        .card_detalii1a p {
+        text-align: center;
+        text-decoration: none;
+        text-wrap: 0;
+        font-size: 25px;
+        padding-top: 90px;
+        color: violet;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        .detalii2 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: normal;
+            justify-content: normal;
+            align-items: normal;
+            padding: 25px 0px;
+            }
+            
+            .coloana_detalii2 {
+            width: 50%;
+            margin: 10px;
+            margin: 0;
+            background: rgb(155, 76, 197);
+            }   
+            
+            .coloana_detalii2a {
+            width: 50%;
+            margin: 10px;
+            margin: 0;
+            background: rgb(102, 50, 130);
+            }
+            
+            .card_detalii2 {
+            padding: 10px;
+            }
+    
+            .card_detalii2 img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                }
+            
+            .card_detalii2a {
+            padding: 0 15px 50px 15px;
+            }
+            
+            .card_detalii2a p {
+            text-align: center;
+            text-decoration: none;
+            text-wrap: 0;
+            font-size: 25px;
+            padding-top: 90px;
+            color: violet;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            }
+
+            .detalii3 {
+                display: flex;
+                flex-direction: row-reverse;
+                flex-wrap: nowrap;
+                align-content: normal;
+                justify-content: normal;
+                align-items: normal;
+                padding: 25px 0px;
+                }
+                
+                .coloana_detalii3 {
+                width: 50%;
+                margin: 10px;
+                margin: 0;
+                background: rgb(155, 76, 197);
+                }   
+                
+                .coloana_detalii3a {
+                width: 50%;
+                margin: 10px;
+                margin: 0;
+                background: rgb(102, 50, 130);
+                }
+                
+                .card_detalii3 {
+                padding: 10px;
+                }
+        
+                .card_detalii3 img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    }
+                
+                .card_detalii3a {
+                padding: 0 15px 50px 15px;
+                }
+                
+                .card_detalii3a p {
+                text-align: center;
+                text-decoration: none;
+                text-wrap: 0;
+                font-size: 25px;
+                padding-top: 90px;
+                color: violet;
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+                }
+
+              
+        .footer {
+            display: flex;
+        }
+
+        .coloana_footer {
+            width: 33.3%; /* sau calc(100%/3) */
+            margin: 0px;
+            background: rgb(68, 23, 107);
+        }
+
+        .card_footer {
+            padding: 25px 0px;
+            box-shadow: 0 -5px 0  rgb(121, 2, 154);
+
+        }
+
+        .card_footer h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .card_footer img {
+           width: 33.3%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+
+        .card_footer p {
+            margin-top: 100px;
+            text-align: center;
+text-decoration: none;
+text-wrap: 0;
+font-size: 20px;
+color: rgb(193, 133, 245);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        .card_footer p a {
+        
+           
+font-size: 20px;
+color: rgb(193, 133, 245);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        
+        
+        
+.chenar {
+outline: 3px solid violet;
+margin: 10px;
+padding: 0 3px 0 0;
+}
+
+
+
+.card_P_N img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+.card_P_N p {
+margin-bottom: 0;
+color: violet;
+
+}
+
+.spacer {
+width: 200px;
+height: 200px;
+object-fit: contain;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding: 100px;              
+}
+
+.M_R {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+    }
+
+.coloana_M_R {
+width: 100%;
+margin: 10px;
+background: rgb(40, 18, 52);
+
+
+}
+
+.card_M_R {
+padding: 10px;
+}
+
+.card_M_R {
+text-align: center;
+text-decoration: none;
+text-wrap: 0;
+font-size: 25px;
+color: rgb(236, 215, 255);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card_M_R ul li {
+text-align: center;
+text-decoration: none;
+text-wrap: 0;
+font-size: 25px;
+list-style-type: none;
+color: rgb(236, 215, 255);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card_M_R ol li {
+text-align: center;
+text-decoration: none;
+text-wrap: 0;
+font-size: 25px;
+padding: 5px;
+color: rgb(236, 215, 255);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card_M_R h2 {
+margin-top: 15px;
+text-align: center;
+}
+
+.card_M_R img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+.card_M_R p {
+margin-bottom: 0;
+padding: 30px 30px;
+color: #bf0000;
+}
+
+.contact {
+    display: flex;
+
+    }
+
+.coloana_C {
+width: 100%;
+margin: 10px;
+background: rgb(83, 34, 109);
+margin: 0;
+}
+
+.coloana_C1 {
+    width: 50%;
+    margin: 10px;
+    margin: 0;
+    background: rgb(146, 72, 187);
+    }
+    .coloana_C2 {
+        width: 50%;
+        margin: 10px;
+        margin: 0;
+        background: rgb(146, 72, 187);
+        }
+
+.card_C {
+padding: 10px;
+text-align: center;
+}
+
+    .card_C1 {
+    padding: 0 15px 50px 15px;
+    }
+    
+    .card_C2 {
+        padding: 0 15px 50px 15px;
+        }
+    
+    .card_C1 p {
+    text-align: center;
+    text-decoration: none;
+    text-wrap: 0;
+    font-size: 25px;
+    padding-top: 50px;
+    color: violet;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .card_C2 p {
+        text-align: center;
+        text-decoration: none;
+        text-wrap: 0;
+        font-size: 25px;
+        padding-top: 90px;
+        color: violet;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+.card_C1 p a {
+color: aliceblue;
+}
+
+.card_C h2 {
+margin-top: 5px;
+text-align: center;
+}
+.card_C img {
+width: 100%;
+}
+
+.card_C p {
+text-align: center;
+text-decoration: none;
+text-wrap: 0;
+font-size: 25px;
+color: rgb(236, 215, 255);
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.image_C {
+width: 400px;
+height: 400px;
+object-fit: contain;
+}
+
+.meniu {
+width: 300px;
+height: 300px;
+object-fit: contain;
+}
+
+
+.rezervari {
+width: 300px;
+            height: 300px;
+          object-fit: contain;
+         
+}
+
+.font {
+font-size: 20px;
+padding: 100px;
+}
+
+.font li {
+padding: 15px;
+}
+
+.map {
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery div {
+    text-align: center;
+    margin: 10px;
+}
+
+.gallery img {
+    width: 500px;
+    height: 500px;
+  object-fit: contain;
+}
+
+
+.image-caption {
+    margin-top: 10px;
+    color: #555;
+}
+
+.rezervarimeniu {
+    text-align: center;
+    margin: 40px;
+}
